@@ -1,1 +1,8 @@
+/Users/sopneshgandhi/Documents/Projects/sopnesh/src/main/java/com/shortenurl/sopnesh/Clients/DynamoDbConfig.java
 /Users/sopneshgandhi/Documents/Projects/sopnesh/src/main/java/com/shortenurl/sopnesh/SopneshApplication.java
+/Users/sopneshgandhi/Documents/Projects/sopnesh/src/main/java/com/shortenurl/sopnesh/controller/UrlController.java
+/Users/sopneshgandhi/Documents/Projects/sopnesh/src/main/java/com/shortenurl/sopnesh/pojo/GenerateShortUrlRequest.java
+/Users/sopneshgandhi/Documents/Projects/sopnesh/src/main/java/com/shortenurl/sopnesh/pojo/GenerateShortUrlResponse.java
+/Users/sopneshgandhi/Documents/Projects/sopnesh/src/main/java/com/shortenurl/sopnesh/pojo/entity/UrlDetails.java
+/Users/sopneshgandhi/Documents/Projects/sopnesh/src/main/java/com/shortenurl/sopnesh/repository/UrlRepoitory.java
+/Users/sopneshgandhi/Documents/Projects/sopnesh/src/main/java/com/shortenurl/sopnesh/service/UrlService.java

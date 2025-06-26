@@ -1,1 +1,6 @@
+com/shortenurl/sopnesh/pojo/entity/UrlDetails.class
+com/shortenurl/sopnesh/pojo/GenerateShortUrlResponse.class
 com/shortenurl/sopnesh/SopneshApplication.class
+com/shortenurl/sopnesh/controller/UrlController.class
+com/shortenurl/sopnesh/service/UrlService.class
+com/shortenurl/sopnesh/pojo/GenerateShortUrlRequest.class

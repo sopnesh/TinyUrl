@@ -5,6 +5,7 @@ import com.shortenurl.sopnesh.pojo.GenerateShortUrlResponse;
 import com.shortenurl.sopnesh.service.UrlService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.view.RedirectView;
 
 @RestController
 @RequestMapping("/")
@@ -15,8 +16,9 @@ public class UrlController {
 
     @GetMapping("/{hash}")
     //TODO - Check use of ResponseEntity
-    public void retrieveOriginalUrl(@PathVariable String hash){
-
+    public RedirectView retrieveOriginalUrl(@PathVariable String hash){
+        String originalUrl = urlService.retrieveOriginalUrl(hash);
+        return new RedirectView(originalUrl);
 
     }
 

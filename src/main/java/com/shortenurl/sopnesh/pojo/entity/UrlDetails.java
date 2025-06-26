@@ -1,14 +1,14 @@
 package com.shortenurl.sopnesh.pojo.entity;
 
-import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbBean;
-import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbPartitionKey;
+//import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbBean;
+//import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbPartitionKey;
 
 import java.sql.Timestamp;
 import java.time.Instant;
 import java.time.LocalDate;
 
 //TODO - use lombok
-@DynamoDbBean
+//@DynamoDbBean
 public class UrlDetails {
 
     //TODO - change to numeric
@@ -26,7 +26,7 @@ public class UrlDetails {
         this.shortUrl = shortUrl;
     }
 
-    @DynamoDbPartitionKey
+//    @DynamoDbPartitionKey
     //TODO - check auto generation techniques
     public String getId() {
         return id;
